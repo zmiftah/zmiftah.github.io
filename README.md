@@ -1,1 +1,1 @@
-![Berkata yang baik](/images/12525255_10154610855758906_6493697861916838729_o.jpg "Berkata yang baik")
+![Berkata yang baik](/images/Doodle-of-the-Month-Your-MOST-Productive-Day-at-Work-1200px.png "Berkata yang baik")
