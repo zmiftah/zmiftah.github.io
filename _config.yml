@@ -1,10 +1,10 @@
 # Site settings
-title: Clean Blog
+title: My Personal Blog
 header-img: img/home-bg.jpg
 email: zeinmiftah@gmail.com
-copyright_name: Your/Project/Corporate Name
+copyright_name: ZM
 description: "Engineer | Mercenary | Web Developer | Linux User | Scatterbrain #SavePalestine #SaveSyria #SaveIndonesia"
-baseurl: "/clean-blog-jekyll"
+baseurl: "/zmiftah.github.io"
 url: "http://zmiftah.github.io"
 twitter_username: miftahzein
 github_username:  zmiftah
