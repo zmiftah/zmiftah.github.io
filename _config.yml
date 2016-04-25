@@ -4,7 +4,7 @@ header-img: img/home-bg.jpg
 email: zeinmiftah@gmail.com
 copyright_name: ZM
 description: "Engineer | Mercenary | Web Developer | Linux User | Scatterbrain #SavePalestine #SaveSyria #SaveIndonesia"
-baseurl: "/zmiftah.github.io"
+baseurl: ""
 url: "http://zmiftah.github.io"
 twitter_username: miftahzein
 github_username:  zmiftah
@@ -15,6 +15,9 @@ email_username:  zeinmiftah@gmail.com
 # You can find your shortname on the Settings page of your Disqus account
 # To enable populate shortname and unhash the line below.
 disqus: zeinmiftah
+
+# Google Analytic
+ga: UA-76874850-1
 
 # Build settings
 markdown: kramdown
