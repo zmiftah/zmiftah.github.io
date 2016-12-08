@@ -1,29 +1,36 @@
-# Site settings
+---
 title: My Personal Blog
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 header-img: img/home-bg.jpg
 email: zeinmiftah@gmail.com
 copyright_name: ZM
-description: "Engineer | Mercenary | Web Developer | Linux User | Scatterbrain #SavePalestine #SaveSyria #SaveIndonesia"
-baseurl: ""
-url: "http://zmiftah.github.io"
+description: 'Engineer | Mercenary | Web Developer | Linux User | Scatterbrain #SavePalestine
+  #SaveSyria #SaveIndonesia'
+baseurl: ''
+url: http://zmiftah.github.io
 twitter_username: miftahzein
-github_username:  zmiftah
-facebook_username:  zeinmiftah
-email_username:  zeinmiftah@gmail.com
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-# To enable populate shortname and unhash the line below.
+github_username: zmiftah
+facebook_username: zeinmiftah
+email_username: zeinmiftah@gmail.com
 disqus: zeinmiftah
-
-# Google Analytic
 ga: UA-76874850-1
-
-# Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-gems: [jekyll-paginate, jekyll-feed]
+exclude:
+- less
+- node_modules
+- Gruntfile.js
+- package.json
+- README.md
+gems:
+- jekyll-paginate
+- jekyll-feed
