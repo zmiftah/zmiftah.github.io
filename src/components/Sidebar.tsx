@@ -20,11 +20,11 @@ const Sidebar = () => {
     <aside className="w-full md:w-64 bg-white border-b md:border-r border-gray-200 md:min-h-screen flex flex-col">
       <div className="p-4 md:p-6 text-center">
         <img
-          src="/lovable-uploads/bc633961-e095-4b13-ae8f-9b56cbf5045d.png"
-          alt="Philip Watson"
+          src="/profile.jpg"
+          alt="Zein Miftah"
           className="w-20 h-20 md:w-32 md:h-32 rounded-full mx-auto mb-4 object-cover"
         />
-        <h1 className="text-lg md:text-xl font-bold text-[#1EAEDB] mb-2">PHILIP WATSON</h1>
+        <h1 className="text-lg md:text-xl font-bold text-[#1EAEDB] mb-2">Zein Miftah</h1>
       </div>
       
       <nav className="flex-1">
