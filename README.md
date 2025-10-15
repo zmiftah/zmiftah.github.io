@@ -1,96 +1,122 @@
-# Welcome to your Lovable project
+# Zein Miftah - Personal Portfolio & Blog
 
-## Project info
+A modern, responsive personal portfolio and blog website built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/4d1f674c-d25b-4c44-abe6-1f036dcb6c44
+## 🌐 Live Site
 
-## How can I edit this code?
+- **Production**: [https://zmiftah.github.io](https://zmiftah.github.io)
+- **Custom Domain**: [https://zmiftah.web.id](https://zmiftah.web.id)
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- Modern, responsive design
+- Personal portfolio showcase
+- Blog section for articles and posts
+- Resume/CV section
+- Contact information
+- Mobile-friendly navigation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4d1f674c-d25b-4c44-abe6-1f036dcb6c44) and start prompting.
+## 🛠️ Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+This project is built with modern web technologies:
 
-**Use your preferred IDE**
+- **[Vite](https://vitejs.dev/)** - Next generation frontend tooling
+- **[React](https://react.dev/)** - JavaScript library for building user interfaces
+- **[TypeScript](https://www.typescriptlang.org/)** - Typed superset of JavaScript
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[shadcn/ui](https://ui.shadcn.com/)** - Re-usable components built with Radix UI and Tailwind CSS
+- **[React Router](https://reactrouter.com/)** - Declarative routing for React
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📋 Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- [Node.js](https://nodejs.org/) (version 16 or higher)
+- npm or [pnpm](https://pnpm.io/) or [bun](https://bun.sh/)
 
-Follow these steps:
+## 🔧 Installation
+
+1. Clone the repository:
+```sh
+git clone https://github.com/zmiftah/zmiftah.github.io.git
+cd zmiftah.github.io
+```
+
+2. Install dependencies:
+```sh
+npm install
+```
+
+## 💻 Development
+
+Start the development server:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🏗️ Build
 
-**Use GitHub Codespaces**
+Build the project for production:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## Deploying to GitHub Pages
-
-To deploy this project to GitHub Pages, follow these steps:
-
-1. Create a new repository on GitHub
-2. Push your code to the repository:
 ```sh
-git remote add origin <your-github-repo-url>
-git push -u origin main
+npm run build
 ```
 
-3. In your GitHub repository settings:
-   - Go to "Settings" > "Pages"
-   - Under "Build and deployment":
-     - Source: Select "GitHub Actions"
-   - Click "Save"
+The build output will be generated in the `dist` directory.
 
-4. The GitHub Action will automatically build and deploy your site when you push to the main branch.
-   - You can monitor the deployment status in the "Actions" tab of your repository
-   - Once deployed, your site will be available at `https://<username>.github.io/<repository-name>/`
+## 🔍 Linting
 
-Note: The first deployment might take a few minutes to complete.
+Run ESLint to check code quality:
 
-## What technologies are used for this project?
+```sh
+npm run lint
+```
 
-This project is built with:
+## 📦 Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This project is automatically deployed to GitHub Pages using GitHub Actions. Any push to the `main` branch will trigger a new deployment.
 
-## How can I deploy this project?
+### Manual Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/4d1f674c-d25b-4c44-abe6-1f036dcb6c44) and click on Share -> Publish.
+You can also deploy manually using:
 
-## Can I connect a custom domain to my Lovable project?
+```sh
+npm run deploy
+```
 
-Yes, you can!
+This will build the project and deploy it to GitHub Pages using the `gh-pages` package.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📝 Project Structure
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```
+zmiftah.github.io/
+├── src/
+│   ├── components/     # React components
+│   ├── pages/          # Page components
+│   ├── hooks/          # Custom React hooks
+│   ├── lib/            # Utility functions
+│   └── main.tsx        # Application entry point
+├── public/             # Static assets
+├── dist/               # Build output (generated)
+└── index.html          # HTML template
+```
+
+## 🤝 Contributing
+
+This is a personal portfolio project, but suggestions and feedback are welcome! Feel free to open an issue or submit a pull request.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👤 Author
+
+**Zein Miftah**
+
+- Website: [zmiftah.web.id](https://zmiftah.web.id)
+- GitHub: [@zmiftah](https://github.com/zmiftah)
+
+---
+
+Built with ❤️ using React and TypeScript
